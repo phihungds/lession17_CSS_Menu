@@ -39,6 +39,7 @@
 #menu li li { line-height: 40px; margin-bottom: 1px; background: #333; margin-left: 0px ; position:relative;}
 #menu li:hover ul {display: block;}
 
+
 /* xong Phần đầu  */
 
 
@@ -57,7 +58,9 @@
 #container #left {
     padding: 20px;
     width: 620px;
+    float: left;
 }
+
 #container #left #success {
     padding: 5px 10px;
     border: 1px solid #bfe6b9 ;
@@ -76,9 +79,43 @@
     margin-bottom: 20px;
     height: 25px;
 }
-
 .close {
     float: right;
+}
+
+
+#container #right {
+    padding: 20px;
+    width: 220px;
+    min-height: 400px;
+    float: right;
+}
+#container #right #lorem {
+    width: 200px;
+    min-height: 25px;
+    padding: 10px;
+    background: #deebfe;
+    font-weight: bold;
+}
+.folder {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    line-height: 25px;
+}
+#right img {
+    width: 30px;
+    height: 28px;
+    float: left;
+    margin: 5px 10px;
+}
+#right a {
+    font-size: 15px;
+}
+#last {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 25px;
 }
 
 #footer{
