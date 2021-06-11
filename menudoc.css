@@ -1,0 +1,35 @@
+* {margin: 0px; padding: 0px;}
+#menu {
+    width: 200px;
+    height: 500px;
+    background: #ad0553;
+}
+#menu a{
+    color: white;
+}
+#menu ul li {
+    width: 200px;
+    height: 40px;
+    position: relative;
+    list-style-type: none;
+    line-height: 40px;
+    text-align: center;
+}
+#menu ul li ul {
+    
+    position: absolute;
+    left: 200px;
+    top: 0px;
+    display: none;
+}
+#menu ul li ul li {
+    background: #d30e60;
+    list-style-type: none;
+    
+}
+#menu li:hover {
+    background: pink;
+}
+#menu ul li:hover ul {
+    display: block;
+}
