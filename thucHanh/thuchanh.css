@@ -82,6 +82,18 @@
 .close {
     float: right;
 }
+.title {
+    border-bottom: 1px solid #ccc;
+}
+#left div {
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+.label {
+    font-weight: bold;
+    color: #5a5757;
+    font-size: 14px;
+}
 
 
 #container #right {
