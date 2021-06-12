@@ -30,7 +30,7 @@
     color: white;
     position: absolute;
     bottom: 0px;
-    right: 20px;
+    right: 220px;
     font-size: 14px;
     line-height: 70px;
 }
@@ -194,6 +194,7 @@ td {
     padding: 10px;
     background: #deebfe;
     font-weight: bold;
+    line-height: 25px;
 }
 
 .folder {
