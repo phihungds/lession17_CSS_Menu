@@ -85,15 +85,15 @@
 
 #container {
     width: 100%;
-    min-height: 900px;
-    background: #D6D6D6;
+    min-height: 1360px;
+    background: url(img/container.jpg);
     padding-top: 20px;
     font-size: 12px;
 }
 
 #container .wapper {
     width: 960px;
-    height: 1000px;
+    min-height: 1340px;
     background: white;
 }
 
@@ -123,11 +123,9 @@
     height: 25px;
 }
 
-.close {
-    float: right;
-}
-
+.close { float: right;}
 .title {
+    padding: 0px 0px 5px 0px;
     border-bottom: 1px solid #ccc;
 }
 
@@ -147,14 +145,8 @@
     border: 1px solid #ccc;
     background: #f7f2f6;
 }
-
-#large {
-    width: 380px;
-}
-
-#select {
-    width: 180px;
-}
+#large {width: 380px;}
+#select { width: 180px;}
 
 #submit {
     padding: 10px 25px;
@@ -163,6 +155,31 @@
     border: 0px;
     margin-left: 5px;
 }
+
+                   /* CSS của Tables */
+
+div table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th {
+    padding: 7px 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+    background: #deebfe;
+}
+td {
+    padding: 7px 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+#dong3 {background: #f7f2f6;}
+#ngoac {width: 40px; height: 50px; float: left; margin: 10px 0px 0px 5px;}
+#list ul {padding-left: 30px;}
+#list li {list-style-image: url(img/art.jpg);}
+
+
+/* Kết thúc bên trái */
 
 #container #right {
     padding: 20px;
@@ -203,8 +220,17 @@
     line-height: 25px;
 }
 
+
+/* XOng phần thân */
+
 #footer {
     width: 100%;
     height: 65px;
     background: url(img/footer.jpg);
+}
+#footer .wapper p{
+    font-size: 15px;
+    color: white;
+    line-height: 65px;
+    text-align: left;
 }
